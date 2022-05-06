@@ -7,10 +7,10 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import colors from './assets/colors/colors';
-import { Home } from './components/Home';
-import { Details } from './components/Details';
-import { Profile } from './components/Profile';
-import { Liked } from './components/Liked';
+import { Home } from './screens/Home';
+import { Details } from './screens/Details';
+import { Profile } from './screens/Profile';
+import { Liked } from './screens/Liked';
 
 Entypo.loadFont();
 MaterialCommunityIcons.loadFont();
